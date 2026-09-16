@@ -11,7 +11,7 @@ CREATE & SWITCH the branch:
 Switch to this branch = git switch <branchName>
 Create a new branch and switch to it = git switch -c <branchName>
 
-    ### Connect the Local REPO with REMOTE REPO(GitHub) 
+### Connect the Local REPO with REMOTE REPO(GitHub) 
     Checking Linked Remote = git remote
     Checking Linked Remote URL's = git remote -v
     My GitHub Reporitory link: https://github.com/SaiRam5252/order-management-devops-new.git
