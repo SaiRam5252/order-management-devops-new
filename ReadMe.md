@@ -59,7 +59,7 @@ Create a new branch and switch to it = git switch -c <branchName>
     git stash pop - file will be restored.
 
 
-## Git WORkTREE
+## Git WORKTREE
     1. Create a worktree with existing branch = git worktree add <location> <old-branch-name>
         Ex: git worktree add ./checkout dev
     2. Create a new branch and new worktree with an exiting branch =
@@ -67,6 +67,13 @@ Create a new branch and switch to it = git switch -c <branchName>
         Ex: git worktree add -b feature/checkout ./checkout dev
     To check the branches
     git branch = you will see +feature/checkout in blue colour
+
+## Remove worktree
+    git worktree reomve <name-of-worktree>
+    Ex: git worktree remove checkout
+
+## List worktree
+    git worktree list
 
 
     
