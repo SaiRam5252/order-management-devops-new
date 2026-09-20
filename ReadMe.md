@@ -81,6 +81,7 @@ Create a new branch and switch to it = git switch -c <branchName>
     Stage the changes 
     Commit the changes with message
     Then modify the ReadMe.md file also 
+<<<<<<< HEAD
     Ex:
         docs: Added the REVERT command example
         f3249e6 feat: added new feature for test file
@@ -95,6 +96,10 @@ Create a new branch and switch to it = git switch -c <branchName>
         2700dd1 docs: Added new comment for branch
         882f5ec docs: Added the new commands
         9e8decf feat: Added new functionality
+=======
+      
+
+>>>>>>> f6cce56 (docs: Added the REVERT command example)
 
 ## Command to revert(To do a specific commet ID but Reset is resets all above the commit ID)
     git revert <commitID>
