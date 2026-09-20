@@ -75,6 +75,14 @@ Create a new branch and switch to it = git switch -c <branchName>
 ## List worktree
     git worktree list
 
+## Revert command 
+    Create one file example Test.htm inside the product folder
+    Then add some code in it
+    Stage the changes 
+    Commit the changes with message
+    Then modify the ReadMe.md file also 
+      
+
 
     
 
