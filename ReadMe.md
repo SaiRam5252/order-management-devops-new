@@ -39,3 +39,18 @@ Create a new branch and switch to it = git switch -c <branchName>
 
     Do not push as below:
     Local "main/master" branch --> Remote "Dev" branch
+
+## Git Reset
+To check the latest comments/messages we added : git log --oneline
+Ex: 
+1872d34 (HEAD -> main, origin/main, origin/HEAD) docs: Added PUSH and REMOTE connection commands
+93a6916 docs: Added the PUSH and REMOTE connection commands
+1b2e467 docs: Modified the Docs on Main branch
+6a8a0ff feat: Added Cart Functionality
+2e2c940 Modified the Login & Signup functionality
+601502a Added the Login & Signup functionality for Order Management
+
+## Git HARD Reset
+git reset --hard <commitID>
+Ex: git reset --hard 1b2e467
+
