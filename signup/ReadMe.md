@@ -21,3 +21,7 @@ Ex:
 6a8a0ff feat: Added Cart Functionality
 2e2c940 Modified the Login & Signup functionality
 601502a Added the Login & Signup functionality for Order Management
+
+## Git HARD Reset
+git reset --hard <commitID>
+Ex: git reset --hard 1b2e467
