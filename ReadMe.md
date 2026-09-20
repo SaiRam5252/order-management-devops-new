@@ -153,6 +153,9 @@ Create a new branch and switch to it = git switch -c <branchName>
         Identify the commit ID which we want to reply suppose dc15cb7,f6cce56
     
     2.  git checkout -b release/Order-Management-V1.0 main
+    3. git cherry-pick dc15cb7 f6cce56
+        git cherry-pick --continue
+    4. 
     
 
     
