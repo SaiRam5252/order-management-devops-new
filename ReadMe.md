@@ -155,7 +155,15 @@ Create a new branch and switch to it = git switch -c <branchName>
     2.  git checkout -b release/Order-Management-V1.0 main
     3. git cherry-pick dc15cb7 f6cce56
         git cherry-pick --continue
-    4. 
+    4. Push to remote
+        git push origin release/Order-Management-V1.0
+    5. Raise the PR & then it'll work as it's
+        After pushing the branch to remote
+        Goto GitHub and open the code base(release/Order-Management-V1.0)
+        Click on "Compare & pull request"
+        Give the Title and Description then click on "Create Pull Request" button.
+        And merge them by clicking on "Merge pull request" button.
+        Then click on "Confirm merge" button.
     
 
     
