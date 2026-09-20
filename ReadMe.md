@@ -81,7 +81,35 @@ Create a new branch and switch to it = git switch -c <branchName>
     Stage the changes 
     Commit the changes with message
     Then modify the ReadMe.md file also 
-      
+    Ex:
+        docs: Added the REVERT command example
+        f3249e6 feat: added new feature for test file
+        96bb83d (origin/feature/US-88934-Add-To-Cart-Functionality) docs: Added RESET Commands
+        b33bac3 docs: Added HARD RESET Command
+        c43da5b docs: Added the example for reset
+        4b97f8f docs: Added Worktree remove and list of worktree
+        df224b7 feat: Added new functionality for Payment
+        e62c9f2 docs: Add WORKTREE commands
+        f88d77d docs: Added STASH commands
+        d9014c9 docs: Added SWITCH commands
+        2700dd1 docs: Added new comment for branch
+        882f5ec docs: Added the new commands
+        9e8decf feat: Added new functionality
+
+## Command to revert(To do a specific commet ID but Reset is resets all above the commit ID)
+    git revert <commitID>
+    Ex: git revert f3249e6
+
+    Then it will open one VIM editor which says that add the comment why u want to revert it
+    if VIM editor not working then to come out of it use below command
+    -->   escape :wq
+
+    To commit from b33bac3 commit ID to f3249e6 commit ID then use below command
+    git revert b33bac3..f3249e6
+
+    To not add the commit message at top use below command to don't any message
+    git revert b33bac3..f3249e6 --no-commit
+
 
 
     
