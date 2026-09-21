@@ -165,6 +165,9 @@ Create a new branch and switch to it = git switch -c <branchName>
         And merge them by clicking on "Merge pull request" button.
         Then click on "Confirm merge" button.
 
+## Git Extensions
+    1. Git History
+    2. GitLens
     
 
     
